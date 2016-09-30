@@ -7,11 +7,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Util.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OOCompare/IComparable.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OOCompare/StringCompare.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OOCompare/IntCompare.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOCompare/StringWrapper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOCompare/IntWrapper.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OOCompare/IComparable.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OOCompare/IntCompare.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OOCompare/StringCompare.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOCompare/IntWrapper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOCompare/StringWrapper.h" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

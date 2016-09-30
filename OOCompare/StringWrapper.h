@@ -11,16 +11,13 @@
 
 using namespace std;
 
-class StringCompare: public IComparable {
+class StringWrapper: public IComparable {
     string stringWrapper;
 public:
-    StringCompare(const string &stringWrapper);
+    StringWrapper(const string &stringWrapper);
 
-    virtual bool isLessThan(IComparable * compareTo) override;
-
-    virtual string getString() override;
-
-    virtual int getInt() override;
+    virtual bool isLessThan(IComparable * compareTo);
+    virtual string getString();
 };
 
 

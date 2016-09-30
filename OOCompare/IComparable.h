@@ -13,8 +13,6 @@ using namespace std;
 class IComparable {
 public:
     virtual bool isLessThan(IComparable *compareTo) = 0;
-    virtual string getString() = 0;
-    virtual int getInt() = 0;
 };
 
 

@@ -9,17 +9,14 @@
 #include "IComparable.h"
 using namespace std;
 
-class IntCompare : public IComparable {
+class IntWrapper : public IComparable {
 private:
     int intWrapper;
 
 public:
-    IntCompare(int intWrapper);
-    virtual bool isLessThan(IComparable * compareTo) override;
-    virtual string getString() override;
-    virtual int getInt() override;
-
-
+    IntWrapper(int intWrapper);
+    virtual bool isLessThan(IComparable * compareTo);
+    virtual int getInt();
 };
 
 

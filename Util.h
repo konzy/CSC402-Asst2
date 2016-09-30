@@ -7,8 +7,8 @@
 
 #include <string>
 #include <vector>
-#include "OOCompare/StringCompare.h"
-#include "OOCompare/IntCompare.h"
+#include "OOCompare/StringWrapper.h"
+#include "OOCompare/IntWrapper.h"
 
 using namespace std;
 
@@ -17,18 +17,16 @@ const vector<string> ALPHABET = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j
 
 class RandomVector {
 public:
-    static void randomStringVector(vector<StringCompare>* sVector);
-    static void randomIntVector(vector<IntCompare>* iVector);
-    static void printSVector(vector<StringCompare> sVector);
-    static void printIVector(vector<IntCompare> iVector);
+    static void randomStringVector(vector<IComparable *>* sVector);
+    static void randomIntVector(vector<IComparable *>* iVector);
+    static void printSVector(vector<IComparable *> sVector);
+    static void printIVector(vector<IComparable *> iVector);
 };
 
 class Sorting {
 public:
-    static void sortString(vector<StringCompare>* sCompare);
-    static bool isStringSorted(vector<StringCompare> sCompare);
-    static void sortInt(vector<IntCompare>* iCompare);
-    static bool isIntSorted(vector<IntCompare> iCompare);
+    static void sort(vector<IComparable *> &list);
+    static bool isSorted(vector<IComparable *> sCompare);
 };
 
 
