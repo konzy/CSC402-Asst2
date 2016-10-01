@@ -17,11 +17,13 @@ int main ()
     RandomVector::randomStringVector(&sVector);
     RandomVector::randomIntVector(&iVector);
 
+    cout << "integer OO sorting... ";
     Sorting::sort(iVector);
+    cout << "string OO sorting... ";
     Sorting::sort(sVector);
 
-    Sorting::isSorted(iVector);
-    Sorting::isSorted(sVector);
+    cout << to_string(Sorting::isSorted(iVector)) << endl;
+    cout << to_string(Sorting::isSorted(sVector)) << endl;
 
     return 0;
 }

@@ -26,7 +26,7 @@ public:
 class Sorting {
 public:
     static void sort(vector<IComparable *> &list);
-    static bool isSorted(vector<IComparable *> sCompare);
+    static bool isSorted(vector<IComparable *> list);
 };
 
 

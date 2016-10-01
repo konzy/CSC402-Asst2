@@ -11,7 +11,7 @@ const int INT_RANGE_MAX = 1000;
 const int STRING_RANGE_MIN = 1;
 const int STRING_RANGE_MAX = 4;
 
-const int TOTAL_ELEMENTS = 10000;
+const int TOTAL_ELEMENTS = 1000;
 
 //void RandomVector::printSVector (vector<IComparable *> sVector) {
 //    for (unsigned i = 0; i < sVector.size(); ++i) {
@@ -33,9 +33,8 @@ void RandomVector::randomStringVector(vector<IComparable *>* sVector) {
         for (int j = STRING_RANGE_MIN; j <= rand() % STRING_RANGE_MAX; ++j) {
             randomString.append(ALPHABET[rand() % ALPHABET.size()]);
         }
-        StringWrapper sCompare(randomString);
-
-        sVector->push_back(&sCompare);
+        StringWrapper * strCompare = new StringWrapper(randomString);
+        sVector->push_back(strCompare);
     }
 }
 
@@ -46,10 +45,22 @@ void RandomVector::randomIntVector(vector<IComparable *> * iVector) {
     }
 }
 
-bool Sorting::isSorted(vector<IComparable *> sCompare) {
-    for (unsigned i = 0; i < sCompare.size() - 1; ++i) {
-        if (sCompare.at(i)->isLessThan(sCompare.at(i + 1))) {
-            return false;
+bool Sorting::isSorted(vector<IComparable *> list) {
+    if (list.size() > 1) {
+        for (unsigned i = 0; i < list.size() - 1; ++i) {
+            if (dynamic_cast<IntWrapper *>(list[i])) {
+                IntWrapper *a = dynamic_cast<IntWrapper *>(list[i]);
+                IntWrapper *b = dynamic_cast<IntWrapper *>(list[i + 1]);
+                if (!a->isLessThan(b) && (a->getInt() != b->getInt())) { //swap
+                    return false;
+                }
+            } else if (dynamic_cast<StringWrapper *>(list[i])) {
+                StringWrapper *a = dynamic_cast<StringWrapper *>(list[i]);
+                StringWrapper *b = dynamic_cast<StringWrapper *>(list[i + 1]);
+                if (!a->isLessThan(b) && (a->getString() != b->getString())) { //swap
+                    return false;
+                }
+            }
         }
     }
     return true;
@@ -64,12 +75,22 @@ void Sorting::sort(vector<IComparable *> &list) {
         while (didSwap) { //keep bubble sorting if we swapped.
             didSwap = false;
             for (unsigned i = 0; i < list.size() - 1 - iterations; ++i) { //go through list
-                IntWrapper* a = dynamic_cast<IntWrapper*>(list[i]);
-                IntWrapper* b = dynamic_cast<IntWrapper*>(list[i + 1]);
-                if (!a->isLessThan(b)) { //swap
-                    list[i] = b;
-                    list[i + 1] = a;
-                    didSwap = true;
+                if (dynamic_cast<IntWrapper*>(list[i])) {
+                    IntWrapper *a = dynamic_cast<IntWrapper *>(list[i]);
+                    IntWrapper *b = dynamic_cast<IntWrapper *>(list[i + 1]);
+                    if (!a->isLessThan(b)) { //swap
+                        list[i] = b;
+                        list[i + 1] = a;
+                        didSwap = true;
+                    }
+                } else if (dynamic_cast<StringWrapper*>(list[i])) {
+                    StringWrapper *a = dynamic_cast<StringWrapper *>(list[i]);
+                    StringWrapper *b = dynamic_cast<StringWrapper *>(list[i + 1]);
+                    if (!a->isLessThan(b)) { //swap
+                        list[i] = b;
+                        list[i + 1] = a;
+                        didSwap = true;
+                    }
                 }
             }
             iterations++;
