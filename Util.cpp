@@ -5,6 +5,8 @@
 
 #include <iostream>
 #include "Util.h"
+#include "TemplateCompare/TIntWrapper.h"
+#include "TemplateCompare/TStringWrapper.h"
 
 const int INT_RANGE_MIN = 0;
 const int INT_RANGE_MAX = 1000;
@@ -27,7 +29,7 @@ const int TOTAL_ELEMENTS = 1000;
 //    }
 //}
 
-void RandomVector::randomStringVector(vector<IComparable *>* sVector) {
+void RandomVector::randomStringWrapperVector(vector<IComparable *> *sVector) {
     for (int i = 0; i < TOTAL_ELEMENTS; ++i) {
         string randomString = ALPHABET[rand() % ALPHABET.size()];
         for (int j = STRING_RANGE_MIN; j <= rand() % STRING_RANGE_MAX; ++j) {
@@ -38,10 +40,28 @@ void RandomVector::randomStringVector(vector<IComparable *>* sVector) {
     }
 }
 
-void RandomVector::randomIntVector(vector<IComparable *> * iVector) {
+void RandomVector::randomIntWrapperVector(vector<IComparable *> *iVector) {
     for (int i = INT_RANGE_MIN; i < TOTAL_ELEMENTS; ++i) {
         IntWrapper * intCompare = new IntWrapper(rand() % INT_RANGE_MAX);
         iVector->push_back(intCompare);
+    }
+}
+
+void RandomVector::randomIntVector(vector<TIntWrapper *> *iVector) {
+    for (int i = INT_RANGE_MIN; i < TOTAL_ELEMENTS; ++i) {
+        TIntWrapper *wrappedInt = new TIntWrapper(rand() % INT_RANGE_MAX);
+        iVector->push_back(wrappedInt);
+    }
+}
+
+void RandomVector::randomStringVector(vector<TStringWrapper *> *sVector) {
+    for (int i = 0; i < TOTAL_ELEMENTS; ++i) {
+        string randomString = ALPHABET[rand() % ALPHABET.size()];
+        for (int j = STRING_RANGE_MIN; j <= rand() % STRING_RANGE_MAX; ++j) {
+            randomString.append(ALPHABET[rand() % ALPHABET.size()]);
+        }
+        TStringWrapper *str = new TStringWrapper(randomString);
+        sVector->push_back(str);
     }
 }
 

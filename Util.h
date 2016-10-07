@@ -9,6 +9,8 @@
 #include <vector>
 #include "OOCompare/StringWrapper.h"
 #include "OOCompare/IntWrapper.h"
+#include "TemplateCompare/TIntWrapper.h"
+#include "TemplateCompare/TStringWrapper.h"
 
 using namespace std;
 
@@ -17,8 +19,10 @@ const vector<string> ALPHABET = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j
 
 class RandomVector {
 public:
-    static void randomStringVector(vector<IComparable *>* sVector);
-    static void randomIntVector(vector<IComparable *>* iVector);
+    static void randomStringWrapperVector(vector<IComparable *> *sVector);
+    static void randomIntWrapperVector(vector<IComparable *> *iVector);
+    static void randomIntVector(vector<TIntWrapper *> *iVector);
+    static void randomStringVector(vector<TStringWrapper *> *sVector);
     static void printSVector(vector<IComparable *> sVector);
     static void printIVector(vector<IComparable *> iVector);
 };

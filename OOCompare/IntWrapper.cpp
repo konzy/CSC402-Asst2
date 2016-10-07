@@ -7,8 +7,10 @@
 IntWrapper::IntWrapper(int intWrapper) : intWrapper(intWrapper) {}
 
 bool IntWrapper::isLessThan(IComparable * compareTo) {
-    IntWrapper *rhs = dynamic_cast<IntWrapper *>(compareTo);
-    return intWrapper < rhs->getInt();
+    if(IntWrapper *rhs = dynamic_cast<IntWrapper *>(compareTo)) {
+        return intWrapper < rhs->getInt();
+    }
+    return NULL;
 }
 
 int IntWrapper::getInt() {
