@@ -7,10 +7,8 @@
 
 #include <string>
 #include <vector>
-#include "OOCompare/StringWrapper.h"
-#include "OOCompare/IntWrapper.h"
-#include "TemplateCompare/TIntWrapper.h"
-#include "TemplateCompare/TStringWrapper.h"
+#include "Wrappers/StringWrapper.h"
+#include "Wrappers/IntWrapper.h"
 
 using namespace std;
 

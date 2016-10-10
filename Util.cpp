@@ -5,8 +5,6 @@
 
 #include <iostream>
 #include "Util.h"
-#include "TemplateCompare/TIntWrapper.h"
-#include "TemplateCompare/TStringWrapper.h"
 
 const int INT_RANGE_MIN = 0;
 const int INT_RANGE_MAX = 1000;
