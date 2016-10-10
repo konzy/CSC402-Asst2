@@ -12,7 +12,13 @@ bool IntWrapper::isLessThan(IComparable * compareTo) {
     }
     return NULL;
 }
+bool IntWrapper::operator<(const IntWrapper &rhs) const {
+    return intWrapper < rhs.intWrapper;
+}
 
+bool IntWrapper::operator>(const IntWrapper &rhs) const {
+    return intWrapper > rhs.intWrapper;
+}
 int IntWrapper::getInt() {
 
     return intWrapper;

@@ -12,11 +12,12 @@ using namespace std;
 class IntWrapper : public IComparable {
 private:
     int intWrapper;
-
 public:
     IntWrapper(int intWrapper);
     virtual bool isLessThan(IComparable * compareTo);
     virtual int getInt();
+    bool operator<(const IntWrapper &rhs) const;
+    bool operator>(const IntWrapper &rhs) const;
 };
 
 

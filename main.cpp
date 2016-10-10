@@ -37,8 +37,8 @@ template <class T>
 bool isSorted(vector<T *> list) {
     if (list.size() > 1) {
         for (unsigned i = 0; i < list.size() - 1; ++i) {
-            T a = list.at(i);
-            T b = list.at(i + 1);
+            T *a = list.at(i);
+            T *b = list.at(i + 1);
             if (*b < *a) {
                 return false;
             }
@@ -47,8 +47,7 @@ bool isSorted(vector<T *> list) {
     return true;
 }
 
-int main ()
-{
+int main () {
     vector<IComparable *> iVector = vector<IComparable *>();
     vector<IComparable *> sVector = vector<IComparable *>();
 
@@ -67,8 +66,8 @@ int main ()
     RandomVector::randomStringWrapperVector(&sVector);
     RandomVector::randomIntWrapperVector(&iVector);
 
-    vector<TStringWrapper *> stringGenericVector;
-    vector<TIntWrapper *> intGenericVector;
+    vector<StringWrapper *> stringGenericVector;
+    vector<IntWrapper *> intGenericVector;
 
     RandomVector::randomIntVector(&intGenericVector);
     RandomVector::randomStringVector(&stringGenericVector);
@@ -80,15 +79,6 @@ int main ()
     sort(&stringGenericVector);
     bool isStringVectorSorted = isSorted(stringGenericVector);
     cout << to_string(isStringVectorSorted) << endl;
-
-//    TSort<TStringWrapper> *genericStringSorting = new TSort<TStringWrapper>(&stringGenericVector);
-//    genericStringSorting->sort();
-
-
-//    int* ptr = new int(4);
-//
-
-    //TSort::sort(sVector);
 
     return 0;
 }

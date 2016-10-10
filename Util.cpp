@@ -47,20 +47,20 @@ void RandomVector::randomIntWrapperVector(vector<IComparable *> *iVector) {
     }
 }
 
-void RandomVector::randomIntVector(vector<TIntWrapper *> *iVector) {
+void RandomVector::randomIntVector(vector<IntWrapper *> *iVector) {
     for (int i = INT_RANGE_MIN; i < TOTAL_ELEMENTS; ++i) {
-        TIntWrapper *wrappedInt = new TIntWrapper(rand() % INT_RANGE_MAX);
+        IntWrapper *wrappedInt = new IntWrapper(rand() % INT_RANGE_MAX);
         iVector->push_back(wrappedInt);
     }
 }
 
-void RandomVector::randomStringVector(vector<TStringWrapper *> *sVector) {
+void RandomVector::randomStringVector(vector<StringWrapper *> *sVector) {
     for (int i = 0; i < TOTAL_ELEMENTS; ++i) {
         string randomString = ALPHABET[rand() % ALPHABET.size()];
         for (int j = STRING_RANGE_MIN; j <= rand() % STRING_RANGE_MAX; ++j) {
             randomString.append(ALPHABET[rand() % ALPHABET.size()]);
         }
-        TStringWrapper *str = new TStringWrapper(randomString);
+        StringWrapper *str = new StringWrapper(randomString);
         sVector->push_back(str);
     }
 }

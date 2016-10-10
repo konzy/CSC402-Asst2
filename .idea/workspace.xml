@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/OOCompare/IntWrapper.h" line="14" />
+    <bookmark url="file://$PROJECT_DIR$/OOCompare/IntWrapper.h" line="13" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
@@ -15,14 +15,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a27e3f08-2321-467e-9a3a-9f7d024d43a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateCompare/TIntWrapper.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateCompare/TIntWrapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateCompare/TStringWrapper.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateCompare/TStringWrapper.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CSC_402_Asst_2.iml" afterPath="$PROJECT_DIR$/.idea/CSC_402_Asst_2.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TemplateCompare/TIntWrapper.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TemplateCompare/TIntWrapper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TemplateCompare/TStringWrapper.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TemplateCompare/TStringWrapper.h" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOCompare/IntWrapper.cpp" afterPath="$PROJECT_DIR$/OOCompare/IntWrapper.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOCompare/IntWrapper.h" afterPath="$PROJECT_DIR$/OOCompare/IntWrapper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOCompare/StringWrapper.cpp" afterPath="$PROJECT_DIR$/OOCompare/StringWrapper.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOCompare/StringWrapper.h" afterPath="$PROJECT_DIR$/OOCompare/StringWrapper.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Util.cpp" afterPath="$PROJECT_DIR$/Util.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Util.h" afterPath="$PROJECT_DIR$/Util.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
@@ -48,8 +49,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="844">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
                 <element signature="e#146#155#0" expanded="true" />
@@ -59,21 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TIntWrapper.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateCompare/TIntWrapper.cpp">
+      <file leaf-file-name="IntWrapper.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOCompare/IntWrapper.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TIntWrapper.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateCompare/TIntWrapper.h">
+      <file leaf-file-name="IntWrapper.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOCompare/IntWrapper.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -82,8 +83,8 @@
       <file leaf-file-name="Util.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Util.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -94,8 +95,8 @@
       <file leaf-file-name="Util.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Util.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="249">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
                 <element signature="e#120#137#0" expanded="true" />
               </folding>
@@ -103,22 +104,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TStringWrapper.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateCompare/TStringWrapper.cpp">
+      <file leaf-file-name="StringWrapper.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOCompare/StringWrapper.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="391">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TStringWrapper.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateCompare/TStringWrapper.h">
+      <file leaf-file-name="StringWrapper.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOCompare/StringWrapper.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#120#137#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,15 +150,16 @@
         <option value="$PROJECT_DIR$/OOCompare/IComparable.h" />
         <option value="$PROJECT_DIR$/OOCompare/StringCompare.cpp" />
         <option value="$PROJECT_DIR$/OOCompare/StringCompare.h" />
-        <option value="$PROJECT_DIR$/OOCompare/StringWrapper.h" />
-        <option value="$PROJECT_DIR$/OOCompare/StringWrapper.cpp" />
-        <option value="$PROJECT_DIR$/OOCompare/IntWrapper.cpp" />
-        <option value="$PROJECT_DIR$/TemplateCompare/TIntWrapper.cpp" />
         <option value="$PROJECT_DIR$/TemplateCompare/TIntWrapper.h" />
         <option value="$PROJECT_DIR$/TemplateCompare/TStringWrapper.cpp" />
         <option value="$PROJECT_DIR$/TemplateCompare/TStringWrapper.h" />
         <option value="$PROJECT_DIR$/TemplateCompare/TComparable.cpp" />
         <option value="$PROJECT_DIR$/TemplateCompare/TComparable.h" />
+        <option value="$PROJECT_DIR$/TemplateCompare/TIntWrapper.cpp" />
+        <option value="$PROJECT_DIR$/OOCompare/IntWrapper.cpp" />
+        <option value="$PROJECT_DIR$/OOCompare/IntWrapper.h" />
+        <option value="$PROJECT_DIR$/OOCompare/StringWrapper.cpp" />
+        <option value="$PROJECT_DIR$/OOCompare/StringWrapper.h" />
         <option value="$PROJECT_DIR$/Util.h" />
         <option value="$PROJECT_DIR$/Util.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
@@ -214,20 +218,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CSC_402_Asst_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSC_402_Asst_2" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSC_402_Asst_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TemplateCompare" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,12 +439,12 @@
       <updated>1474589433418</updated>
       <workItem from="1474589435041" duration="1049000" />
       <workItem from="1474590523439" duration="2421000" />
-      <workItem from="1475104942264" duration="61102000" />
+      <workItem from="1475104942264" duration="61927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64572000" />
+    <option name="totallyTimeSpent" value="65397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -471,7 +461,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -493,7 +483,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="44" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -586,14 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOCompare/StringWrapper.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOCompare/IComparable.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -610,52 +592,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOCompare/IntWrapper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOCompare/StringWrapper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#120#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateCompare/TStringWrapper.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateCompare/TStringWrapper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/cygwin64/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ext/new_allocator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOCompare/IntWrapper.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -676,16 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Util.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding>
-            <element signature="e#120#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.5.2-1/winsup/cygwin/fhandler_console.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -702,36 +632,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateCompare/TIntWrapper.h">
+    <entry file="file://$PROJECT_DIR$/TemplateCompare/TIntWrapper.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateCompare/TIntWrapper.cpp">
+    <entry file="file://$PROJECT_DIR$/OOCompare/IntWrapper.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateCompare/TIntWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateCompare/TStringWrapper.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOCompare/StringWrapper.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateCompare/TStringWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOCompare/StringWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#120#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#120#137#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Util.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="317">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OOCompare/IntWrapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
             <element signature="e#146#155#0" expanded="true" />

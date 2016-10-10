@@ -15,7 +15,8 @@ class StringWrapper: public IComparable {
     string stringWrapper;
 public:
     StringWrapper(const string &stringWrapper);
-
+    bool operator<(const StringWrapper &rhs) const;
+    bool operator>(const StringWrapper &rhs) const;
     virtual bool isLessThan(IComparable * compareTo);
     virtual string getString();
 };

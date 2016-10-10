@@ -21,10 +21,8 @@ class RandomVector {
 public:
     static void randomStringWrapperVector(vector<IComparable *> *sVector);
     static void randomIntWrapperVector(vector<IComparable *> *iVector);
-    static void randomIntVector(vector<TIntWrapper *> *iVector);
-    static void randomStringVector(vector<TStringWrapper *> *sVector);
-    static void printSVector(vector<IComparable *> sVector);
-    static void printIVector(vector<IComparable *> iVector);
+    static void randomIntVector(vector<IntWrapper *> *iVector);
+    static void randomStringVector(vector<StringWrapper *> *sVector);
 };
 
 class Sorting {
